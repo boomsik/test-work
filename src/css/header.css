@@ -30,7 +30,7 @@
     font-style: normal;
     font-weight: 300;
     line-height: 25.6px;
-    color: aliceblue;
+    color: var(--menu-color);
 }
 
 .header-btn {
@@ -42,8 +42,8 @@
     align-items: center;
     flex-shrink: 0;
     border-radius: 50px;
-    background: #3D96F4;
-    color: aliceblue;
+    background: var(--btn-color);
+    color: var(--menu-color);
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
