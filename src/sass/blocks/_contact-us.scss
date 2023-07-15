@@ -1,0 +1,52 @@
+.contact-us {
+  padding: 160px 0 190px 0;
+  &__container {
+    display: flex;
+    align-items: center;
+    column-gap: 32px;
+  }
+
+  &__description-block {
+    flex: 0 1 50%;
+  }
+
+  /* .contact-us__images */
+
+  &__images {
+    flex: 0 1 50%;
+  }
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  gap: 9.615385%;
+  &__column {
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+  }
+
+  &__item {
+    img {
+      max-width: 100%;
+    }
+    &_1st {
+    }
+
+    /* .images__item_2nd */
+
+    &_2nd {
+    }
+
+    /* .images__item_3d */
+
+    &_3d {
+    }
+
+    /* .images__item_4th */
+
+    &_4th {
+    }
+  }
+}
