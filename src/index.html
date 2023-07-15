@@ -15,13 +15,18 @@
     <script type="module" src="./index.js"></script>
   </head>
   <body>
-    <include src="./partials/header.html"></include>
-    <include src="./partials/services.html"></include>
-    <include src="./partials/Contact_us.html"></include>
-    <include src="./partials/help.html"></include>
-    <include src="./partials/statistic.html"></include>
-    <include src="./partials/clients.html"></include>
-    <include src="./partials/info.html"></include>
-    <include src="./partials/start.html"></include>
+    <div class="wrapper">
+      <include src="./partials/header.html"></include>
+      <main class="page">
+        <include src="./partials/Contact_us.html"></include>
+        <include src="./partials/services.html"></include>
+        <include src="./partials/help.html"></include>
+        <include src="./partials/statistic.html"></include>
+        <include src="./partials/clients.html"></include>
+        <include src="./partials/info.html"></include>
+        <include src="./partials/start.html"></include>
+      </main>
+      <footer class="footer"></footer>
+    </div>
   </body>
 </html>
