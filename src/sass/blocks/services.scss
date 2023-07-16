@@ -1,0 +1,136 @@
+.services-blocks {
+    height: 751px;
+    // margin-top: 50px;
+    // margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.services-descr{
+    button{
+        @extend %little_btn;
+    }
+    h2{
+        margin-bottom: 11px;
+        color: #FFF;
+        font-family: 'Poppins', sans-serif;
+        font-size: 51.2px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 61.44px;
+    }
+    p{
+        margin-bottom: 33px;
+        color: #9C9C9C;
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 27px;  
+    }
+    .descr-btn{
+        @extend %blue_btn;
+    }
+}
+
+.services-optional {
+    margin: 0;
+    height: 100%;
+}
+
+.services-big-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    ul {
+    box-sizing: content-box;
+    width: 266px;
+    height: 224px;
+    padding: 55px 67px 62px 25px;
+    text-decoration: none;
+    border-radius: 30px;
+    background-color: rgba(129, 129, 139, 0.2);
+    &:first-child {
+            margin-top: 41px;
+            margin-right: 32px;
+        }
+    &:nth-child(3) {
+        margin-top: 32px;
+        margin-right: 32px;
+    }
+    }
+}
+
+
+.svg-shadow {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 76px;
+    height: 76px;
+    border-radius: 30px;
+}
+        .first {
+            background-color: rgba(0, 137, 255, 0.1);
+        }
+    
+        .second {
+            background-color: rgba(255, 205, 29, 0.1);
+        }
+    
+        .third {
+            background-color: rgba(255, 109, 53, 0.2);
+        }
+    
+        .fourth {
+            background-color: rgba(92, 201, 123, 0.1);
+        }
+
+.svg-color {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    .svg-item {
+            fill: none;
+        }
+}
+
+.one {
+    background-color: #1B76FF;
+}
+
+.two {
+    background-color: #FFCD1D;
+}
+
+.three {
+    background-color: #FF6D35;
+}
+
+.four {
+    background-color: #5CC97B;
+}
+
+
+.services-subtitle {
+    margin-bottom: 10px;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 19.2px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.services-item-text {
+    color: #D9D9D9;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+}
