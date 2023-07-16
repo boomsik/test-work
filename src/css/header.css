@@ -1,52 +1,80 @@
-.container {
-    width: 1280px;
-}
-
 .header {
-    display: flex;
-    align-items: center;
-    margin-top: 32px;
-    margin-bottom: 32px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 50;
+  background-color: rgba(13, 13, 17, 0.8);
+  padding: 32px 0;
 }
-
+.header-box {
+  display: flex;
+  align-items: center;
+}
+.header-logo {
+  padding-right: 10px;
+}
+.menu {
+  flex: 1 1 auto;
+  padding-right: 55px;
+}
 .menu-list {
-    list-style-type: none;
-    padding: 0;
-    margin-left: 500px;
-    margin-right: 70px;
-    display: flex;
-    flex-direction: row;
-    gap: 24px;
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 35px;
 }
-
-.menu-item {
-    text-decoration: none;
-}
-
 .menu-link {
-    font-family: 'Poppins', sans-serif;
-    text-decoration: none;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 25.6px;
-    color: var(--menu-color);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 160%;
+  position: relative;
 }
-
-.header-btn {
-    display: flex;
-    width: 160px;
-    height: 52px;
-    padding: 16px 29.206px 16px 29.391px;
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 0;
-    border-radius: 50px;
-    background: var(--btn-color);
-    color: var(--menu-color);
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 22.4px;
-    letter-spacing: 2px;
+.menu-link:before {
+  content: '';
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: -3px;
+  width: 0;
+  height: 1px;
+  background-color: rgba(154, 154, 154, 0.342);
+  transition: width 0.5s;
+}
+.menu-link:hover:before {
+  content: '';
+  width: 100%;
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  height: 1px;
+  background-color: #6ba559;
+  transition: width 0.5s;
+}
+.header-basket {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  padding-right: 55px;
+  font-size: 17.6px;
+  font-weight: 300;
+  line-height: 160%;
+  letter-spacing: 0.96px;
+}
+.number {
+  position: relative;
+}
+.number:before {
+  content: '';
+  position: absolute;
+  top: -1px;
+  right: -9px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: rgba(129, 129, 139, 0.3);
+}
+.button-block {
+  flex-shrink: 0;
 }
