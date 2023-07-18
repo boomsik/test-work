@@ -1,24 +1,28 @@
 .scroll-top {
-   display: none;
-   position: fixed;
-   bottom: 20px;
-   right: 20px;
-   width: 54px;
-   height: 54px;
-   background: #4F2EE8;
-   border: 5px solid #C3B9F1;
-   border-radius: 50%;
-   z-index: 9999;
+  display: none;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  width: 36px;
+  height: 36px;
+  border: 2px solid #3d96f4;
+  background: #3d96f4;
+  border-radius: 50%;
 }
-.scroll-top-svg{
-   width: 18px;
-   height: 18px;
-   fill: #FFFFFF;
+.scroll-top:before {
+  content: '';
+  position: absolute;
+  border-left: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+  width: 14px;
+  height: 14px;
+  top: 12px;
+  left: 9.5px;
+  transform: rotate(135deg);
 }
 
 .scroll-top.show {
-   display: flex;
-   align-items: center;
-   justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-

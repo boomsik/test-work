@@ -1,0 +1,51 @@
+.clients {
+  &__inform {
+  }
+}
+
+.inform {
+  display: flex;
+  justify-content: space-between;
+  &__heading {
+    max-width: 735px;
+    padding-right: 15px;
+  }
+
+  /* .info__button-box */
+
+  &__button-box {
+    align-self: flex-end;
+  }
+
+  /* .info__button */
+
+  &__button {
+  }
+}
+.heading {
+  flex: 0 1 auto;
+  &__dark-link {
+    &:not(:last-child) {
+      margin-bottom: 30px;
+    }
+  }
+
+  &__title {
+    font-size: 51.2px;
+    font-weight: 500;
+    line-height: 120%;
+    &:not(:last-child) {
+      margin-bottom: 15px;
+    }
+  }
+
+  &__text {
+    color: $grey-text-color;
+    font-size: 18px;
+    line-height: 150%;
+  }
+}
+.dark-link {
+}
+.button {
+}
