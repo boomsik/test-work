@@ -1,0 +1,121 @@
+.inform {
+  display: flex;
+  justify-content: space-between;
+  &__heading {
+    max-width: 735px;
+    padding-right: 15px;
+  }
+
+  /* .info__button-box */
+
+  &__button-box {
+    align-self: flex-end;
+  }
+
+  /* .info__button */
+}
+.heading {
+  flex: 0 1 auto;
+  &__dark-link {
+    &:not(:last-child) {
+      margin-bottom: 30px;
+    }
+  }
+
+  &__title {
+    font-size: 51.2px;
+    font-weight: 500;
+    line-height: 120%;
+    &:not(:last-child) {
+      margin-bottom: 15px;
+    }
+  }
+
+  &__text {
+    color: $grey-text-color;
+    font-size: 18px;
+    line-height: 150%;
+  }
+}
+
+.clients {
+  &__cards {
+    padding-top: 75px;
+  }
+}
+.cards {
+  display: flex;
+  column-gap: 45px;
+  &__item {
+    flex: 0 1 33.333%;
+  }
+}
+.item {
+  padding: 64px 40px;
+  border-radius: 30px;
+  background-color: rgba(129, 129, 139, 0.1);
+  &__header {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    &:not(:last-child) {
+      margin-bottom: 33px;
+    }
+    img {
+      max-width: 100%;
+    }
+  }
+
+  /* .item__header-box */
+
+  &__header-box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* .item__name */
+
+  &__name {
+    font-size: 16px;
+    line-height: 150%;
+  }
+
+  /* .item__company */
+
+  &__company {
+    color: $grey-text-color;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 160%; /* 160% */
+  }
+
+  /* .item__heading */
+
+  &__heading {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 140%;
+    &:not(:last-child) {
+      margin-bottom: 34px;
+    }
+  }
+
+  /* .item__text */
+
+  &__text {
+    color: $grey-text-color;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 150%;
+    &:not(:last-child) {
+      margin-bottom: 34px;
+    }
+  }
+
+  /* .item__list */
+
+  &__list {
+    display: flex;
+    column-gap: 5px;
+  }
+}
